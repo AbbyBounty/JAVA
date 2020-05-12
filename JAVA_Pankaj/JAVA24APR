@@ -1,0 +1,56 @@
+
+<24 Apr>
+
+press control+1 to see error on red line 
+
+public class A{
+    public static void main(String args[]) {
+        
+      A a1=new A();
+      a1.test(100,'a',"abby",true);
+    }
+    public void test(Object... i)
+    {
+          System.out.println(i[0]);
+          System.out.println(i[1]);
+          System.out.println(i[2]);
+          System.out.println(i[3]);
+          
+    }
+}
+
++++++++++++++++++++++++++++++
+
+How a method can return value?
+a. we have to use return keyword.
+b. void method can not return value.
+
+
+public class A{
+    public static void main(String args[]) {
+        
+      A a1=new A();
+      System.out.println(a1.test());
+    }
+    public int test()
+    {
+        
+          return 100;
+          
+    }
+}
+++++++++++++++++++
+
+public class A{
+    public static void main(String args[]) {
+        
+      
+      System.out.println(A.test());
+    }
+    public static int test()
+    {
+        
+          return 100;
+          
+    }
+}

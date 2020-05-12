@@ -1,0 +1,75 @@
+<22 Apr>
+
+A.java => A.class =>o/p
+
+1. Compose- English
+2. Compile - byte code 
+3. Run
+
+compilation 
+	|
+    JDK
+        |
+    RUN
+
+jdk -java Development kit
+1. JDK
+2. JRE
+
+STEP 1:
+installing JDK
+JDK 1.7
+*download 1.8 - Most popular and most widely used*
+	1.9
+	1.10
+	1.11
+	1.12
+by defult path:
+
+java -jdk
+	-jre
+
+JRE: Java Runtime Environment.
+
+A.java -> to compile with help of JDK (byte code) -> A.class -> to run with help of JRE ->
+
+
+STEP 2:
+Eclipse:
+*download Eclipse for java EE*
+
+Note: in work space window we give 
+
+STEP 3:
+
+right click in project explore tab-> go to new -> project ->select java project -> give project name 
+NOTE: under JRE section select 2nd radio button "use a project specific JRE" if not work then. select 3rd button.
+
+STEP 4:
+SRC->CLASS (cmd+N)-> give class name 
+
+src folder: A.java
+
+bin folder : binary 
+	        : A.class 
+         
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

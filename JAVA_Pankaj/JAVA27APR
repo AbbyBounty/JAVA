@@ -1,0 +1,46 @@
+<27th apr>
+
+
+when a method is "void" then don't call method from SOP directly
+
+when method is not "void" then it is returning some value.
+
+control can not be controlled by sop
+
+control means control goes back to main method. 
+
+*type casting:
+
+public class A {
+    public static void main(String args[]) {
+      A a1=new A();
+      
+    byte j=(byte)a1.test(); //type casting 
+    System.out.println(j);
+    
+    }
+      public int test()
+      {
+          return 100;
+          
+      }
+}
+
+++++++++++++++++++++++=
+public class A {
+    public static void main(String args[]) {
+      A a1=new A();
+      int i='₹';
+      char j= 8377;
+    
+    System.out.println(i);
+     System.out.println(j);
+    
+    
+    }
+      public int test()
+      {
+          return 100;
+          
+      }
+}

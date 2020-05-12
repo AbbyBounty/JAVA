@@ -1,0 +1,29 @@
+<21 Apr>
+
+Explicit down casting:
+
+EXAMPLE:
+public class MyClass {
+    public static void main(String args[]) {
+     int i=10;
+     byte j=i;			//ERROR cannot be store due to small memory.
+
+      System.out.println(j);
+    }
+}
+
+*During Auto upcasting data loss should not happen
+
+EXAMPLE:
+public class MyClass {
+    public static void main(String args[]) {
+     int i=10;
+     byte j=(byte)i;
+
+      System.out.println(i);
+      System.out.println(j);
+      
+    }
+}
+
+**During Explicit Downcasting data loss might happen
