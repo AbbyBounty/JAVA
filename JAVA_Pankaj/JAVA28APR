@@ -1,0 +1,21 @@
+<28 Apr>
+
+Constructor example:
+
+when object is created constructor will call.
+
+public class A {
+    A(int i)
+    {
+        System.out.println(i);
+    }
+    public static void main(String args[]) {
+    A a1= new A(100);
+      
+    }
+}
+
++++++
+->If we write "void" in front of constructor then it will no longer constructor , it will be method.
+->if we do not add constructor in our program then during compilation .class file auto empty body const get added 
+->we can create more than one const in a class but with diff no of argu or diff type of arg./

@@ -1,0 +1,93 @@
+<1 MAY>
+
+<Static initialisation block>
+
+->It will run on it's own we need not to call it.
+->it will run before main method without object created.
+-> without main method we cannot just run class with SIB.
+->when we have more than one SIB in program it will run in sequence.
+
+public class A {
+    static{
+        System.out.println("SIB");
+    }
+    public static void main(String args[]) {
+	System.out.println("main");
+    }
+}
+-------------------------------------------------------------
+
+->How to call main() more than once,
+
+public class A {
+    static{
+        System.out.println("SIB");
+        
+    }
+    public static void main(String args[]) {
+     
+
+      System.out.println("main");
+    }
+}
+
+--------------------------------------------------------------
+
+<Flow of execution>
+
+SIB call
+main/if object is created  then IIB call
+Constructor call
+
+public class A {
+    static
+    {
+        System.out.println(5);
+        
+    }
+    {
+        System.out.println(50);
+    }
+    A()
+    {
+         System.out.println(500);
+    }
+    public static void main(String args[]) {
+      System.out.println("main");
+      A a1=new A();
+    }
+}
+
+---------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
