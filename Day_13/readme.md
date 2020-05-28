@@ -1,3 +1,4 @@
+# Day 13
 ### Exception Handling
 * Exception is an object/instance, which is used to send notification to the end user if exceptional situation occurs in the program.
 
