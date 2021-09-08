@@ -1,4 +1,4 @@
-###Day_3
+### Day_3
 
 >Java Buzzwords:
             * Simple
@@ -22,7 +22,7 @@
             * Non-primitive datatype/reference.
 =====================================================
 
-###Day_4
+### Day_4
 
 >Initialisation & Assignment.
 
@@ -49,7 +49,7 @@
 
 =============================================================
 
-###Day_5
+### Day_5
 
 >Class:
 >instantiation 
